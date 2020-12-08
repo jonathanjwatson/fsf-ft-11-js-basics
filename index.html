@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <script type="text/javascript">
+      console.log("Hello world");
+
+      // VARIABLES
+      // STRING
+      var instructorName = "Jonathan";
+      // NUMBER
+      var numberOfStudents = 36;
+      // BOOLEAN
+      var classStarted = true;
+      // ARRAY - Collection of like or similar items.
+      var students = ["Adrian", "Caleb", "Jeana Rose"];
+      console.log(students.length);
+
+      // ALERT
+      alert("Welcome, " + instructorName);
+      // PROMPT - returns a string
+      var dayOfWeek = prompt("What day is it?");
+      alert("Today is " + dayOfWeek);
+      // CONFIRM - returns a boolean
+      var homeworkComplete = confirm("Have you completed your homework?");
+
+      // CONDITIONAL
+      if (homeworkComplete) {
+        alert("Congratulations! That was a tough one.");
+      } else {
+        alert("Keep working on it. You'll get it!");
+      }
+
+      if (dayOfWeek.toLowerCase() === "friday") {
+        alert("It's Friday, Friday, everybody's down on Friday.");
+      }
+
+      for (var i = 0; i < students.length; i++) {
+        alert("Good morning " + students[i]);
+      }
+    </script>
+  </body>
+</html>
